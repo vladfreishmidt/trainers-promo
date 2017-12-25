@@ -1,0 +1,80 @@
+/******************
+GENERAL styles
+******************/
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #ccc;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+}
+.content {
+  background-color: #000;
+  width: 60%;
+  height: 550px;
+  margin: 4% auto 0;
+}
+/*************
+HEADER
+************/
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 5% 0;
+  margin-bottom: 40px;
+}
+/*******************
+LOGO
+*******************/
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.logo__img {
+  max-width: 100%;
+}
+/*****************
+NAVIGATION
+*****************/
+.navigation__list {
+  display: flex;
+  list-style: none;
+}
+.navigation__item {
+  margin-right: 20px;
+}
+.navigation__link {
+  color: #fff;
+  text-decoration: none;
+}
+/*************
+MAIN section
+*************/
+.main-section {
+  padding: 0 5%;
+  text-align: right;
+}
+.main-section__title {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+/************
+main-CONTENT
+************/
+.main-content {
+  width: 100%;
+  height: 30%;
+  display: flex;
+}
+.main-content__preview {
+  width: 40%;
+  border: 2px solid yellow;
+}
+.main-content__gallery {
+  width: 60%;
+  border: 2px solid tomato;
+}
