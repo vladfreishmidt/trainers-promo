@@ -1,8 +1,11 @@
 .big-trainer {
   position: absolute;
-  bottom: -100px;
   right: 0;
-}
-.big-trainer__image {
-  width: 70%;
+  bottom: -135px;
+  border: 2px solid green;
+  width: 50%;
+  height: 350px;
+  background-image: url(../img/big-trainer.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }

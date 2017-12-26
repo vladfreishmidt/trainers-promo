@@ -17,7 +17,7 @@ body {
   background-color: #000;
   max-width: 900px;
   height: 90vh;
-  margin: 4% auto 0;
+  margin: 1% auto 0;
 }
 /*************
 HEADER
@@ -139,9 +139,12 @@ main-CONTENT
 }
 .big-trainer {
   position: absolute;
-  bottom: -100px;
   right: 0;
-}
-.big-trainer__image {
-  width: 70%;
+  bottom: -135px;
+  border: 2px solid green;
+  width: 50%;
+  height: 350px;
+  background-image: url(../img/big-trainer.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
