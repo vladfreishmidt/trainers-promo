@@ -16,6 +16,7 @@ body {
 .content {
   background-color: #000;
   max-width: 900px;
+  height: 90vh;
   margin: 4% auto 0;
 }
 /*************
@@ -107,19 +108,27 @@ main-CONTENT
   line-height: 30px;
 }
 .main-content__gallery__list {
-  width: 80%;
+  width: 90%;
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 .main-content__gallery__item {
-  width: 120px;
+  display: inline-block;
+  width: 250px;
 }
 .main-content__gallery__image {
   max-width: 100%;
 }
 @media (max-width: 800px) {
+  .content {
+    margin-top: 0;
+  }
+  .main-section {
+    background: #000;
+    height: 100vh;
+  }
   .main-content__preview,
   .main-content__gallery {
     width: 100%;
@@ -130,7 +139,7 @@ main-CONTENT
 }
 .big-trainer {
   position: absolute;
-  bottom: -200px;
+  bottom: -100px;
   right: 0;
 }
 .big-trainer__image {

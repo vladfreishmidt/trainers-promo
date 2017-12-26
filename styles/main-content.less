@@ -46,7 +46,7 @@ main-CONTENT
      }
 
      &__list {
-       width:80%;
+       width:90%;
        display: flex;
        list-style: none;
        margin: 0;
@@ -54,7 +54,8 @@ main-CONTENT
      }
 
      &__item {
-       width: 120px;
+       display: inline-block;
+       width: 250px;
      }
 
      &__image {
@@ -65,6 +66,13 @@ main-CONTENT
  }
 
  @media (max-width: 800px) {
+    .content {
+      margin-top: 0;
+    }
+    .main-section {
+      background: #000;
+      height: 100vh;
+    }
     .main-content__preview,
     .main-content__gallery, {
       width: 100%;
